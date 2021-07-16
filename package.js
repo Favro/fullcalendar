@@ -7,7 +7,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('METEOR@1.10.2');
+  api.versionsFrom('METEOR@2.3');
   api.use(['momentjs:moment','jquery@3.0.0','templating']);
   api.addAssets(["dist/fullcalendar.print.css"], 'client');
   api.addFiles([
